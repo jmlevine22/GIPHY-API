@@ -104,6 +104,7 @@ $("#user-button").on("click", function(event) {
 	topics.push(user);
 
 $("#topics-buttons").empty();
+$("#topics-buttons2").append(topics);
 
 
 addButtons();	

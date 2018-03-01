@@ -27,7 +27,7 @@ html {
 
 form {
 	margin-left: 620px;
-	margin-top: -60px;
+	margin-top: -90px;
 	background-color: #800000;
 	background-image: url(http://www.scrapbookyourfamilytree.com/wp-content/uploads/2013/10/FYRSCI-34647.jpg);
 	height: 100px;
@@ -44,7 +44,7 @@ form {
 	margin-top: 23px;
 	margin-left: 50px;
 	color:teal;
-	
+
 }
 
 p {
@@ -65,14 +65,13 @@ h2 {
 	height: 0px;
 	text-align: center;
 	font-weight: thick;
-	color: black;
+	color:  #ffffcc;
 	opacity: .85;
-	/*background-color: white;*/
 	text-shadow:
-		2px 2px  white,
-		1px 1px  white,
-		2px 2px  teal,
-		2px 2px  teal;
+		3px 3px  black,
+		3px 3px  black,
+		3px 3px  black,
+		3px 3px  black;
 
 
 }
