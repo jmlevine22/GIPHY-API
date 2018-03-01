@@ -41,9 +41,10 @@ form {
 }
 
 #user-text {
-	margin-top: 20px;
+	margin-top: 23px;
 	margin-left: 50px;
 	color:teal;
+	
 }
 
 p {
@@ -57,7 +58,7 @@ p {
 h2 {
 	font-family: 'Dancing Script', cursive;
 	margin-left: 40px;
-	margin-top: 10px;
+	margin-top: 20px;
 	padding-top: 5px;
 	display: inline-block;
 	font-size: 50px;
@@ -120,6 +121,9 @@ h2 {
 	margin-top: 40px;
 
 }
+
+
+
 
 
 

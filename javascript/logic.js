@@ -7,14 +7,14 @@ $(document).ready(function() {
 //topics function 
 var topics = ["vacation", "suitcase", "holiday", "travel", "airplane", 
 "plane tickets" ,"beach", "skiing", "sightseeing", "museums", "gelato", "islands", 
-"cruise", "road trip", "adventure", "hiking", "mountains", "photography"
+"cruise", "road trip", "adventure", "hiking", "mountains", 
 ]; //end of topics 
 
 
 //Function for adding the butttons 
 function addButtons (){
 
-$("#topics-buttons").empty();
+//$("#topics-buttons").empty();
 
 
 for (var i=0; i < topics.length; i++) {
@@ -29,8 +29,9 @@ for (var i=0; i < topics.length; i++) {
 
 
 
-$(document).on("click", "#topics-buttons", function() {
+$(document).on("click", ".topics", function() {
 	$("#giphy-div").empty();
+
 
 
 	var info = $(this).attr("data-type"); //this is the topic button and name on button 
@@ -50,7 +51,7 @@ $(document).on("click", "#topics-buttons", function() {
 			for( var i = 0; i < results.length; i++) {
 
 				
-				var gifDiv = $("<span class = 'item'>");
+				var gifDiv = $("<div class = 'item'>");
 				var rating = results[i].rating;
 				var p = $("<h3>").text("Rating: " + rating.toUpperCase());
 
@@ -102,15 +103,16 @@ $("#user-button").on("click", function(event) {
 
 	topics.push(user);
 
+$("#topics-buttons").empty();
 
 
-addButtons(topics);	
+addButtons();	
 
 });
 
 
 
-addButtons(topics);
+addButtons();	
 
 
 }); //end of document.ready function
